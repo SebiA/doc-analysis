@@ -1,4 +1,4 @@
-## H3 AWS Requirements:
+## AWS Requirements:
 Create an S3 bucket for app hosting (static web hosting must be enabled for this bucket)
 Create an S3 bucket for uploading PDF documents
 Create a Lambda function that gets triggered on S3 file upload, and include this in the deployment package
@@ -7,7 +7,7 @@ Create an API via API Gateway that triggers the read output Lambda function
 Get access to a Bedrock model
 
 
-## H3 Creating a deployment package for AWS Lambda (Linux):
+## Creating a deployment package for AWS Lambda (Linux):
 1. cd [project_directory_name]
 2. py -m venv my_virtual_env
 3. source ./my_virtual_env/bin/activate
